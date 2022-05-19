@@ -1,0 +1,850 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+section {
+    border: 2px solid red;
+    /* height: 300px; */
+    /* flex-Box */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+p {
+    border: 1px solid rgb(58, 97, 2);
+}
+
+
+/* 
+Pantalla pequeña */
+
+/* pantalla pequeña 1 */
+
+@media (max-width: 320px) {
+    body {
+        background-color: yellow;
+
+    }
+
+    .p19 {
+        background-color: rgb(252, 148, 12);
+        align-self: flex-end;
+
+    }
+
+    .p20 {
+        background-color: aquamarine;
+        align-self: flex-end;
+    }
+
+    h1 {
+        background-color: blue;
+        border: solid pink;
+        align-items: center;
+    }
+
+    section {
+        flex-wrap: wrap;
+    }
+
+    .sm-1 {
+        width: 8, 3333%;
+    }
+
+    .sm-2 {
+        width: 16, 6666%;
+    }
+
+    .sm-3 {
+        width: 25%;
+    }
+
+    .sm-4 {
+        width: 33, 3333%;
+    }
+
+    .sm-5 {
+        width: 41, 6666%;
+    }
+
+    .sm-6 {
+        width: 50%;
+    }
+
+    .sm-7 {
+        width: 58, 3333%;
+    }
+
+    .sm-8 {
+        width: 66, 6666%;
+    }
+
+    .sm-9 {
+        width: 75%;
+    }
+
+    .sm-10 {
+        width: 83, 3333%;
+    }
+
+    .sm-11 {
+        width: 91, 6666%;
+    }
+
+    .sm-12 {
+        width: 100%;
+    }
+
+}
+
+/* pantalla pequeña 2 */
+
+@media (min-width: 321px) and (max-width: 640px) {
+    body {
+        background-color: blue;
+    
+    }
+    section {
+        flex-wrap: wrap-reverse;
+        height: 500px;
+    }
+
+    h1 {
+        background-color: rgb(235, 0, 0);
+    }
+
+    section{
+     
+}
+   
+
+    .p1{
+        background-color: antiquewhite;
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p2{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p3{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p4{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p5{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p6{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p7{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p8{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p9{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p10{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p11{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p12{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p13{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p14{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p15{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p16{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p17{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p18{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p19{
+        background-color: rgb(209, 124, 13);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+
+    .p20{
+        background-color: antiquewhite;
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .sm2-1 {
+        width: 8, 3333%;
+    }
+
+    .sm2-2 {
+        width: 16.6666%;
+    }
+
+    .sm2-3 {
+        width: 25%;
+    }
+
+    .sm2-4 {
+        width: 33, 3333%;
+    }
+
+    .sm2-5 {
+        width: 41, 6666%;
+    }
+
+    .sm2-6 {
+        width: 50%;
+    }
+
+    .sm2-7 {
+        width: 58, 3333%;
+    }
+
+    .sm2-8 {
+        width: 66, 6666%;
+    }
+
+    .sm2-9 {
+        width: 75%;
+    }
+
+    .sm2-10 {
+        width: 83, 3333%;
+    }
+
+    .sm2-11 {
+        width: 91, 6666%;
+    }
+
+    .sm2-12 {
+        width: 100%;
+    }
+}
+
+/* pantalla pequeña 3 */
+
+@media (min-width: 641px) and (max-width:854px) {
+    body {
+        background-color: rgb(170, 38, 38);
+        flex-wrap: wrap;
+    }
+    
+    h1 {
+        background-color: rgb(8, 5, 5);
+        color: antiquewhite;
+        text-align: center;
+    }
+
+    section{
+        flex-direction: row-reverse;
+       
+        
+    }
+    p{
+        text-decoration: line-through; 
+    }
+
+    .p1{
+        background-color: antiquewhite;
+        border-radius: 100px;
+        text-align: -webkit-center;
+        padding: 2px;
+        text-decoration: none;
+    }
+    .p20{
+        background-color: antiquewhite;
+        border-radius: 100px;
+        text-align: -webkit-center;
+        padding: 2px;
+        text-decoration: none;
+    }
+
+    .p8{
+        background-color: antiquewhite;
+        border-radius: 100px;
+        text-align: -webkit-center;
+        padding: 2px;
+        text-decoration: none;
+    }
+
+    .p17{
+        background-color: antiquewhite;
+        border-radius: 100px;
+        text-align: -webkit-center;
+        padding: 2px;
+        text-decoration: none;
+    }
+
+    .sm3-1 {
+        width: 8, 3333%;
+    }
+
+    .sm3-2 {
+        width: 16, 6666%;
+    }
+
+    .sm3-3 {
+        width: 25%;
+    }
+
+    .sm3-4 {
+        width: 33, 3333%;
+    }
+
+    .sm3-5 {
+        width: 41, 6666%;
+    }
+
+    .sm3-6 {
+        width: 50%;
+    }
+
+    .sm3-7 {
+        width: 58, 3333%;
+    }
+
+    .sm3-8 {
+        width: 66, 6666%;
+    }
+
+    .sm3-9 {
+        width: 75%;
+    }
+
+    .sm3-10 {
+        width: 83.3333%;
+    }
+
+    .sm3-11 {
+        width: 91.6666%;
+    }
+
+    .sm3-12 {
+        width: 100%;
+    }
+}
+
+/* Pantalla mediana */
+
+/* pantalla mediana 1 */
+
+@media (min-width: 855px) and (max-width: 960px) {
+    body {
+        background-color: rgb(4, 20, 44);
+        flex-wrap: wrap;
+        color: rgb(44, 49, 53);
+    }
+
+    .section{
+        display: flex;
+        justify-content: center;
+    }
+    h1 {
+        background-color: rgb(8, 5, 5);
+        color: antiquewhite;
+        text-align: center;
+    }
+
+    .p1{
+        background-color: blanchedalmond;
+        text-align: center;
+        font-weight: bold;
+    }
+    .p2{
+        background-color: rgba(0, 0, 0, 0.856);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p3{
+        background-color: rgba(0, 0, 0, 0.856);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p4{
+        background-color: rgba(0, 0, 0, 0.856);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p5{
+        background-color: rgba(0, 0, 0, 0.856);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p6{
+        background-color: rgba(0, 0, 0, 0.856);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p7{
+        background-color: rgba(0, 0, 0, 0.856);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p8{
+        background-color: rgba(0, 0, 0, 0.856);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p9{
+        background-color: rgba(0, 0, 0, 0.856);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p10{
+        background-color: rgba(0, 0, 0, 0.856);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p11{
+        background-color: rgba(0, 0, 0, 0.856);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p13{
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p12{
+        background-color: rgba(0, 0, 0, 0.856);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p14{
+        background-color: rgba(0, 0, 0, 0.856);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p15{
+        background-color: rgba(0, 0, 0, 0.856);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p16{
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    
+    .p17{
+        background-color: rgba(255, 239, 13, 0.962);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p18{
+        background-color: rgba(13, 90, 255, 0.962);
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .p19{
+        background-color: rgba(234, 10, 10, 0.962);
+        text-align: center;
+        font-weight: bold;
+    }
+    .p20{
+        background-color: rgba(234, 10, 10, 0.962);
+        text-align: center;
+        font-weight: bold;
+    }
+    .md-1 {
+        width: 8, 3333%;
+    }
+
+    .md-2 {
+        width: 16, 6666%;
+    }
+
+    .md-3 {
+        width: 25%;
+    }
+
+    .md-4 {
+        width: 33.3333%;
+    }
+
+    .md-5 {
+        width: 41.6666%;
+    }
+
+    .md-6 {
+        width: 50%;
+    }
+
+    .md-7 {
+        width: 58.3333%;
+    }
+
+    .md-8 {
+        width: 66.6666%;
+    }
+
+    .md-9 {
+        width: 75%;
+    }
+
+    .md-10 {
+        width: 83, 3333%;
+    }
+
+    .md-11 {
+        width: 91, 6666%;
+    }
+
+    .md-12 {
+        width: 100%;
+    }
+}
+
+/* Pantalla grande */
+
+/* pantalla grande 1 */
+@media (min-width: 961px) and (max-width:1200px) {
+
+    body{
+        background-color: rgba(28, 22, 22, 0.912);
+        
+    }
+    h1{
+        background-color: rgb(2, 71, 71);
+        color: red;
+        text-align: end;
+    }
+    section{
+        background-image: url(https://images3.alphacoders.com/135/135625.jpg);
+        background-size: 150vw;
+        background-size: 150vh;  
+        display: flex;
+        justify-content: space-between;  
+        height: 500px;
+       
+    }
+    .p2{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p3{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p4{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p5{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p6{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p7{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p8{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p9{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p10{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p11{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p12{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p13{
+        background-color: rgbrgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+        background-color:rgba(54, 33, 5, 0.637);
+        
+    }
+    .p14{
+        background-color: rgbrgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+        background-color:rgba(54, 33, 5, 0.637);
+    }
+    .p15{
+        background-color:rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p16{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p17{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p18{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p1{
+        background-color: rgba(54, 33, 5, 0.637);
+        border-radius: 100px;
+        text-align: -webkit-center;
+    }
+    .p19{
+        background-color: navajowhite;
+        text-align: center;
+        font-weight: bold;
+    }
+    .p20{
+        background-color: navajowhite;
+        text-align: center;
+        font-weight: bold;
+    }
+    .lg-1 {
+        width: 8, 3333%;
+    }
+
+    .lg-2 {
+        width: 16, 6666%;
+    }
+
+    .lg-3 {
+        width: 25%;
+    }
+
+    .lg-4 {
+        width: 33.3333%;
+    }
+
+    .lg-5 {
+        width: 41.6666%;
+    }
+
+    .lg-6 {
+        width: 50%;
+    }
+
+    .lg-7 {
+        width: 58.3333%;
+    }
+
+    .lg-8 {
+        width: 66.6666%;
+    }
+
+    .lg-9 {
+        width: 75%;
+    }
+
+    .lg-10 {
+        width: 83.3333%;
+    }
+
+    .lg-11 {
+        width: 91.6666%;
+    }
+
+    .lg-12 {
+        width: 100%;
+    }
+}
+
+/* pantalla grande 2 */
+
+@media (min-width: 1201px) and (max-width:100vw) {
+    body {
+        background-color: rgb(0, 0, 0);
+    }
+   
+    h1{
+        background-color: rgb(2, 71, 71);
+        color: red;
+        text-align: center;
+    }
+    .section{
+        
+    flex-direction: column-reverse;
+    }
+
+    .p1{
+        background-color: rgba(255, 255, 0, 0.889);
+    }
+    .p2{
+        background-color: rgba(255, 255, 0, 0.92);
+    }
+    .p3{
+        background-color: rgba(255, 255, 0, 0.831);
+    }
+    .p4{
+        background-color: rgba(255, 255, 0, 0.831);
+    }
+    .p5{
+        background-color: rgba(0, 140, 255, 0.831);
+    }
+    .p6{
+        background-color: rgba(0, 140, 255, 0.831);
+    }
+    .p7{
+        background-color: rgba(0, 140, 255, 0.831);
+    }
+    .p8{
+        background-color: rgba(0, 140, 255, 0.831);
+    }
+    .p9{
+        background-color: rgba(0, 140, 255, 0.831);
+    }
+    .p10{
+        background-color: rgba(0, 140, 255, 0.831);
+    }
+    .p11{
+        background-color: rgba(255, 0, 0, 0.831);
+    }
+    .p12{
+        background-color: rgba(255, 0, 0, 0.831);
+    }
+    .p13{
+        background-color: rgba(255, 0, 0, 0.831);
+    }
+    .p14{
+        background-color: rgba(255, 0, 0, 0.831);
+    }
+    .p15{
+        background-color: rgba(255, 0, 0, 0.831);
+    }
+    .p16{
+        background-color: rgba(255, 255, 0, 0.92);
+    }
+    .p20{
+         background-color:  rgba(255, 0, 0, 0.831);
+    }
+    .p17{
+        background-color: rgba(255, 255, 0, 0.92);
+    }
+    .p18{
+        background-color: rgba(0, 140, 255, 0.831);
+    }
+    .p19{
+        background-color: rgba(0, 140, 255, 0.831);
+    }
+
+    .lg2-1 {
+        width: 8, 3333%;
+    }
+
+    .lg2-2 {
+        width: 16.6666%;
+    }
+
+    .lg2-3 {
+        width: 25%;
+    }
+
+    .lg2-4 {
+        width: 33.3333%;
+    }
+
+    .lg2-5 {
+        width: 41.6666%;
+    }
+
+    .lg2-6 {
+        width: 50%;
+    }
+
+    .lg2-7 {
+        width: 58.3333%;
+    }
+
+    .lg2-8 {
+        width: 66.6666%;
+    }
+
+    .lg2-9 {
+        width: 75%;
+    }
+
+    .lg2-10 {
+        width: 83.3333%;
+    }
+
+    .lg2-11 {
+        width: 91.6666%;
+    }
+
+    .lg2-12 {
+        width: 100%;
+    }
+}
